@@ -1,0 +1,266 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, "Times New Roman";
+}
+body {
+	background-color: #d3d3d3;
+	color: #000000;
+	margin-right: 44px;
+}
+h1 {
+	color: #000000;
+}
+h2 {
+	color: #000000;
+}
+h3 {
+	color: #000000;
+}
+img {
+	border: 1px solid black;
+	width:100%;
+	max-width:1065px;
+}
+div.margin {
+	margin-left: 41px;
+}
+
+/* Header */
+div.card {
+	max-width:1065px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin-left: 41px;
+}
+div.header {
+	background-color: #2196f3;
+	color: white;
+	padding: 1px;
+	font-size: 30px;
+}
+div.container {
+	padding: 2px;
+}
+
+/* Buttons */
+a:link, a:visited{
+	color: red;
+	text-align: center;
+	text-decoration: none;
+}
+a.class1, a:link a:visited{
+	background-color: #2196f3;
+	color: white;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+a:hover, a:active {
+	background-color: red;
+	color: white;
+}
+
+/* Compatibility Table */
+table {
+	margin-left: 41px;
+	max-width:1065px;
+}
+.tg {
+	border-collapse:collapse;
+	border-color:#000;
+	border-spacing:0;
+}
+.tg td{
+	background-color:#EBF5FF;
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	overflow:hidden;
+	padding:2px 4px;
+	word-break:normal;
+	height:33px;
+}
+.tg th{
+	background-color:#409cff;
+	border-color:#000;
+	border-style:solid;
+	border-width:1px;
+	color:#fff;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	overflow:hidden;
+	padding:2px 4px;
+	word-break:normal;
+}
+.tg .tg-white{
+	border-color:inherit;
+	text-align:center;
+	vertical-align:middle
+}
+.tg .tg-blue{
+	background-color:#D2E4FC;
+	border-color:inherit;
+	text-align:center;
+	vertical-align:middle
+}
+.tg .tg-red{
+	background-color:#e96a6a;
+	border-color:inherit;
+	text-align:center;
+	vertical-align:middle
+}
+.tg .tg-green{
+	background-color:#acfaac;
+	border-color:inherit;
+	text-align:center;
+	vertical-align:middle
+}
+
+.tg .tg-yellow{
+	background-color:#fad202;
+	border-color:inherit;
+	text-align:center;
+	vertical-align:middle
+}
+
+/* Start Page Table */
+.startrow1width {
+	width: 355px;
+}
+
+.startrow2width {
+	width: 355px;
+}
+
+.startrow3width {
+	width: 355px;
+}
+
+/* Wii Table */
+.indexwidth {
+	min-width: 12px;
+}
+
+.namewidth {
+	width: 230px;
+}
+
+.regionwidth {
+	min-width: 45px;
+}
+
+.hostwidth {
+	width: 200px;
+}
+
+.gamepadwidth {
+	min-width: 62px;
+}
+
+.statuswidth {
+	min-width: 40px;
+}
+
+.noteswidth {
+	width: 476px;
+}
+
+/* GBA Table */
+.gbaindexwidth {
+	min-width: 12px;
+}
+
+.gbanamewidth {
+	width: 260px;
+}
+
+.gbaregionwidth {
+	min-width: 45px;
+}
+
+.gbahostwidth {
+	width: 210px;
+}
+
+.gbastatuswidth {
+	min-width: 62px;
+}
+
+.gbanoteswidth {
+	width: 476px;
+}
+
+/* Modal Boxes */
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: auto;
+	max-width: 950px;
+	position: absolute;
+	left: 82px;
+	right: 82px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	border-color:#000;
+	border-style:solid;
+	border-width:2px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #D2E4FC);
+	background: -webkit-linear-gradient(#fff, #D2E4FC);
+	background: -o-linear-gradient(#fff, #D2E4FC);
+}
+
+.close {
+	background: #409cff;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: red; }
+
+.close:visited { color: white; }
+
+.close:link { color: white; }
