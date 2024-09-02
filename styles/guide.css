@@ -127,6 +127,16 @@ table {
 	vertical-align:middle
 }
 
+/* Compatibility Table with striped rows, excluding header */
+.tg tr:not(:first-child):nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tg tr:not(:first-child):nth-child(even) {
+    background-color: #ffffff;
+}
+
+
 /* Start Page Table */
 .startrow1width {
 	width: 355px;
